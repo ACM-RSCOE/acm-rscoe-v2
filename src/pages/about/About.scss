@@ -32,23 +32,25 @@
             .head-card {
                 display: flex;
                 align-items: center;
-                justify-content: space-evenly;
+                justify-content:center;
                 width: 75%;
-
-                .image {
+                //gap: -3rem;
+                .image {   
                     display: flex;
                     align-items: center;
-                    width: 25%;
-
+                    width: 32.5%;
                     .head-img {
-                        width: 100%;
-                        height: 100%;
+                        border-radius: 10px;
+                        width: 350px;
+                        height: 350px;
                     }
                 }
 
                 .about {
+                    padding: 30px;
+                    border-radius: 10px;
+                    background-color: white;
                     width: 50%;
-
                     .name {
                         font-size: 25px;
                         font-family: 'Montserrat', sans-serif;
@@ -88,7 +90,6 @@
 
                 .about2 {
                     display: none;
-
                     .name {
                         text-align: center;
                         font-size: 25px;
@@ -136,7 +137,14 @@
                     flex-direction: column;
 
                     .image {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                         width: 50%;
+                        .head-img {
+                            width: 200px;
+                            height: 200px;
+                        }
                     }
 
                     .about {

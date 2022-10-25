@@ -7,7 +7,7 @@ function Cod() {
         <div>
             <Navbar />
             <section className='concept-home-img'>
-                <img className='display-img' src="./assets/concept-home.png" alt="img" />
+                <video className='vid' autoPlay loop muted src="./assets/cod-bg.mp4"></video>
             </section>
             <section className='concept-container'>
                 <div className='title'>

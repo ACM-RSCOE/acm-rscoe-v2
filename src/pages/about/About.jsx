@@ -150,7 +150,6 @@ const About = () => {
       <section className="contact">
         <div className='title'>
           Contact Us
-          <hr />
         </div>
         <div className='contact-container'>
           <div className='map'>
