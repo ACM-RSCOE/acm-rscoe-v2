@@ -1,0 +1,197 @@
+.about-container {
+
+    .homeImg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .heads-container {
+        background-color: #e9eaf2;
+        padding-top: 163px;
+
+        .title {
+            font-size: 50px;
+            font-family: 'Playfair Display', serif;
+            text-align: center !important;
+            margin-bottom: 70px;
+
+            hr {
+                margin: 15px;
+                width: 5%;
+                border-top: 6px dotted #011447;
+                margin: auto;
+            }
+        }
+
+        .heads {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .head-card {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                width: 75%;
+
+                .image {
+                    display: flex;
+                    align-items: center;
+                    width: 25%;
+
+                    .head-img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .about {
+                    width: 50%;
+
+                    .name {
+                        font-size: 25px;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 800;
+                        margin-bottom: 0px;
+                    }
+
+                    .post {
+                        color: #085ecf;
+                    }
+
+                    img {
+                        width: 5%;
+                        height: 50%;
+                    }
+
+                    .thoughts {
+                        font-weight: 400;
+                    }
+
+                    .socialMedia {
+                        background-color: #00000000;
+
+                        .icons {
+                            background-color: #00000000;
+                            color: #0f0f22;
+                            margin: 15px;
+                            font-size: 30px;
+
+                            &:hover {
+                                cursor: pointer;
+                                color: #00a2ff;
+                            }
+                        }
+                    }
+                }
+
+                .about2 {
+                    display: none;
+
+                    .name {
+                        text-align: center;
+                        font-size: 25px;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 600;
+                        margin-bottom: 0px;
+                    }
+
+                    .post {
+                        text-align: center;
+                        color: #085ecf;
+                    }
+
+                    .socialMedia {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #00000000;
+
+                        .icons {
+                            background-color: #00000000;
+                            color: #0f0f22;
+                            margin: 15px;
+                            font-size: 30px;
+
+                            &:hover {
+                                cursor: pointer;
+                                color: #00a2ff;
+                            }
+                        }
+                    }
+                }
+            }
+
+            hr {
+                width: 5%;
+                border-top: 6px dotted #011447;
+                margin: auto;
+                margin-top: 15px;
+                margin-bottom: 70px;
+            }
+
+            @media (max-width: 992px) {
+                .head-card {
+                    flex-direction: column;
+
+                    .image {
+                        width: 50%;
+                    }
+
+                    .about {
+                        display: none;
+                    }
+
+                    .about2 {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact {
+        .title {
+            font-size: 50px;
+            font-family: 'Playfair Display', serif;
+            text-align: center !important;
+            margin-bottom: 30px;
+            hr {
+                margin: 15px;
+                width: 5%;
+                border-top: 6px dotted #011447;
+                margin: auto;
+            }
+        }
+
+        .contact-container{
+            padding:0 30px;
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 100px;
+            .map {
+                iframe{
+                    width: 100%;
+                    height: 90%;
+                    border-radius: 20px;
+                }
+                width: 90%;
+            }
+            .message{
+                .my-4{
+                    margin-top: 0 !important;
+                }
+                padding: 50px;
+                .md-form{
+                    padding: 20px;
+                }
+            }
+            @media (max-width: 992px) {
+                .map {
+                    display: none;
+                }
+            }
+        }
+    }
+}

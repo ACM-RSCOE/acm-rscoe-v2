@@ -26,7 +26,6 @@ class Navbar extends Component {
               <NavLink className='nav-items' style={{ textDecoration: "None" }} to="/blogs"><li>BLOGS</li></NavLink>
               <NavLink className='nav-items' style={{ textDecoration: "None" }} to="/events"><li>EVENTS</li></NavLink>
               <NavLink className='nav-items' style={{ textDecoration: "None" }} to="/about"><li>ABOUT</li></NavLink>
-              <NavLink className='nav-items' style={{ textDecoration: "None" }} to="/contact"><li>CONTACT</li></NavLink>
 
                 <Tippy content={<span style={{color:"#fffce7"}}>Concept of the day 💡</span>}>
                   <NavLink className='nav-items' style={{ textDecoration: "None" }} to="/concept-of-day"><li><i className="fa-solid fa-calendar-days concept"></i></li></NavLink>
@@ -38,9 +37,8 @@ class Navbar extends Component {
               <i id='bar' className={this.state.clicked ? "fas fa-times" : "fa-solid fa-bars"}> </i>
             </div>
           </div>
-
-        </nav >
-      </div >
+        </nav>
+      </div>
     )
   }
 }

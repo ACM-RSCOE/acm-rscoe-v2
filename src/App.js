@@ -3,7 +3,6 @@ import Blog from "./pages/blogs/Blog";
 import Land from "./pages/landing-page/Land";
 import About from "./pages/about/About";
 import Event from "./pages/events/Event";
-import Contact from "./pages/contact/Contact";
 import ContentTeam from "./pages/contentTeam/ContentTeam";
 import DesignTeam from "./pages/designTeam/DesignTeam";
 import DocumentationTeam from "./pages/docTeam/DocumentationTeam";
@@ -26,7 +25,6 @@ function App(){
           <Route path="/blogs" element={<Blog/>}></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/events" element={<Event/>}></Route>
-          <Route path="/contact" element={<Contact/>}></Route>
           <Route path="/content-team" element={<ContentTeam/>}></Route>
           <Route path="/design-team" element={<DesignTeam/>}></Route>
           <Route path="/documentation-team" element={<DocumentationTeam/>}></Route>
