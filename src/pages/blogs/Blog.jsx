@@ -44,7 +44,7 @@ const Blog = () => {
                     Sahil Kandhare
                   </span>
                   <p>
-                    7 Oct 2022
+                  10 June, 2022
                   </p>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const Blog = () => {
                   Sahil Kandhare
                 </span>
                 <p>
-                  7 Oct 2022
+                30 April, 2022
                 </p>
               </div>
             </div>
@@ -85,7 +85,7 @@ const Blog = () => {
                   Sahil Kandhare
                 </span>
                 <p>
-                  7 Oct 2022
+                6 May, 2021
                 </p>
               </div>
             </div>
@@ -106,7 +106,7 @@ const Blog = () => {
                   Sahil Kandhare
                 </span>
                 <p>
-                  7 Oct 2022
+                8 May, 2022
                 </p>
               </div>
             </div>
@@ -128,7 +128,7 @@ const Blog = () => {
                   Sahil Kandhare
                 </span>
                 <p>
-                  8 Oct 2022
+                2 Aug, 2021
                 </p>
               </div>
             </div>
@@ -151,7 +151,7 @@ const Blog = () => {
                   Sahil Kandhare
                 </span>
                 <p>
-                  8 Oct 2022
+                26 April, 2022
                 </p>
               </div>
             </div>

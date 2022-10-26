@@ -32,7 +32,7 @@ function IndiaBlog() {
                                 <span>Writer: </span>Sahil Kandhare
                             </p>
                             <p className='date'>
-                                8 oct 2022
+                            2 Aug, 2021
                             </p>
                             <p className='editor'>
                                 <span>Editor:</span> Sahil Kandhare

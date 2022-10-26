@@ -4,6 +4,7 @@ import Navbar from '../../components/navbar/Navbar'
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import Footer from '../../components/footer/Footer'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 const Land = () => {
   return (
     <div className='home'>
@@ -24,9 +25,10 @@ const Land = () => {
 
             </div>
             <div className='btn-div'>
-              <button className='btn'>
+              <motion.button className='btn'
+                whileTap={{ scale: 0.5 }}>
                 LET'S TALK!
-              </button>
+              </motion.button>
             </div>
           </div>
           <div className='right-content'>
@@ -105,7 +107,7 @@ const Land = () => {
           </div>
 
           {/* Ganesh-Event */}
-          <div  className='work-description'>
+          <div className='work-description'>
             <div className="event-img">
               <video className='vid' autoPlay loop muted src="./assets/ganesh.mp4"></video>
             </div>
@@ -161,12 +163,14 @@ const Land = () => {
 
             </div>
           </div>
-          <button className='explore-btn'>
-            EXPLORE MORE
-          </button>
+          <Link to="/events">
+            <button className='explore-btn'>
+              EXPLORE MORE
+            </button>
+          </Link>
         </div>
       </section>
-        <Footer />
+      <Footer />
     </div>
   )
 }

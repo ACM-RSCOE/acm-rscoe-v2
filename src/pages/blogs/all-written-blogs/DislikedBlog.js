@@ -32,7 +32,7 @@ function DislikedBlog() {
                                 <span>Writer: </span>Sahil Kandhare
                             </p>
                             <p className='date'>
-                                8 oct 2022
+                            6 May, 2021
                             </p>
                             <p className='editor'>
                                 <span>Editor:</span> Sahil Kandhare

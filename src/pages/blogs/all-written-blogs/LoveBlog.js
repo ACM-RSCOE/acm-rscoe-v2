@@ -32,7 +32,7 @@ function LoveBlog() {
                                 <span>Writer: </span>Sahil Kandhare
                             </p>
                             <p className='date'>
-                                8 oct 2022
+                            26 April, 2022
                             </p>
                             <p className='editor'>
                                 <span>Editor:</span> Sahil Kandhare
