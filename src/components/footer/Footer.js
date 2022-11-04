@@ -45,15 +45,16 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div className="copyright">
-                        <div className="text-center p-3 copyright">
-                            © 2020 Copyright | ACM RSCOE WEBTEAM | 
-                            <a target="_blank" className="text-dark email" href="https://rscoe.acm.org/"> acmRSCOE.com</a>
-                        </div>
-                    </div>
+                  
                 </div>
 
             </section>
+            <div className="copyright">
+                        <div className="text-center p-3 copyright">
+                            © 2022 Copyright | ACM RSCOE WEBTEAM 
+                            
+                        </div>
+                    </div>
         </div>
     )
 }

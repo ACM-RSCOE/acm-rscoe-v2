@@ -1,124 +1,78 @@
-.home {
-    .front-page {
-        text-align: center;
-        background-color: #e9eaf2;
-        padding: 20px 20px 20px 20px;
+.main{
+    padding: 1rem 6rem 1rem 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-        .team-name {
-            left: 70px;
-            bottom: 20px;
-
-            h1 {
-                font-size: 90px;
-                font-family: Playfair Display, serif;
-                margin: 0;
-            }
-
-            span {
-                font-family: "Montserrat", sans-serif;
-                text-align: left;
-                font-size: 20px;
-                color: #000000;
-            }
-
-            .info {
-                text-align: center;
-                margin-bottom: 50px;
-                font-size: 20px;
-            }
-
-            p {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                font-size: 20px;
-                margin: 0;
-                font-family: "Montserrat", sans-serif;
-                text-align: left;
-                color: #002880;
-                box-sizing: border-box;
-
-                .border {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    text-align: center;
-                    margin-top: 5px;
-                    width: 300px;
-                    height: 65px;
-                    border-radius: 40px;
-                    background-image: linear-gradient(225deg, #3b20b6, rgb(37, 114, 255));
-                    box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
-
-                    &:hover {
-                        cursor: pointer;
-                        background-image: linear-gradient(225deg, #471ff7, rgb(106, 157, 251));
-                    }
-
-                    .lead-icon {
-                        width: 50px;
-                        height: 50px;
-                        border-radius: 50%;
-                        margin: 40px 10px 40px 10px;
-                        background-color: #002880;
-
-                        img {
-                            border-radius: 50%;
-                            width: 50px;
-                            height: 50px;
-                            width: 100%;
-                        }
-                    }
-
-                    span {
-                        color: white;
-                        font-size: 15px;
-                        text-decoration: none;
-                    }
-                }
-
-            }
-
+        .web-main{
+       
         }
 
-        .container {
-            padding: 0px;
+        .web-img-div{
 
-            .homeImg {
-                width: 80%;
-            }
-
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        @media (max-width: 770px) {
-            .homeImg {
-                display: none;
+            .web-img{
+               width: 100%;
             }
         }
-
-    }
+    
 }
 
-.team-mem-card {
-    background-color: #e9eaf2;
-    padding: 168px 0 0 0;
-    text-align: center !important;
+.team{
+    padding: 1rem 6rem 1rem 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-    .title {
-        font-size: 50px;
-        font-family: 'Playfair Display', serif;
-        text-align: center !important;
-        margin-bottom: 70px;
+    .card-container{
 
-        hr {
-            margin: 15px;
-            width: 5%;
-            border-top: 6px dotted #011447;
-            margin: auto;
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0;
+            flex-direction: column;
+            background-color: rgb(247, 247, 255);
+            width: 15rem;
+            padding: 2rem 1rem 2rem 1rem;
+            transition: all 0.5s;
+
+            &:hover{
+                background-color: white;
+                box-shadow: 15px 17px 41px -21px rgba(207,207,207,1);
+                transform: translateY(-1px);
+            }
+            .card-name{
+                font-size: 1.3rem;
+                font-family: 'Work sans', serif;
+                margin: 1rem 0 0 0;
+            }
+            .card-subname{
+                margin: 0 0 1rem 0;
+            }
+
+            .card-img{
+                border-radius: 55%;
+                width: 10rem;
+            }
+            .socials{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 0.5rem;
+
+                a{
+                    font-size: 1.23rem;
+                }
+            }
+            
         }
     }
 }
