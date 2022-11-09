@@ -1,33 +1,41 @@
-.main{
+.main {
     padding: 1rem 6rem 1rem 8rem;
+    margin-top: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-        .img-div{
-            .img{
-               width: 100%;
-            }
+    .team-name {
+        font-size: 50px;
+        color: #0d6efd;
+    }
+
+    .img-div {
+        .img {
+            width: 800px;
+            height: 100%;
         }
+    }
 }
 
-.team{
+.team {
     padding: 1rem 6rem 1rem 8rem;
+    margin-top: 163px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    .card-container{
+    .card-container {
 
-        .flex{
+        .flex {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 1rem;
         }
 
-        .card{
+        .card {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -38,35 +46,38 @@
             padding: 2rem 1rem 2rem 1rem;
             transition: all 0.5s;
 
-            &:hover{
+            &:hover {
                 background-color: white;
-                box-shadow: 15px 17px 41px -21px rgba(207,207,207,1);
+                box-shadow: 15px 17px 41px -21px rgba(207, 207, 207, 1);
                 transform: translateY(-1px);
             }
-            .card-name{
+
+            .card-name {
                 font-size: 1.3rem;
                 font-family: 'Work sans', serif;
                 margin: 1rem 0 0 0;
             }
-            .card-subname{
+
+            .card-subname {
                 margin: 0 0 1rem 0;
             }
 
-            .card-img{
+            .card-img {
                 border-radius: 55%;
                 width: 10rem;
             }
-            .socials{
+
+            .socials {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 gap: 0.5rem;
 
-                a{
+                a {
                     font-size: 1.23rem;
                 }
             }
-            
+
         }
     }
 }

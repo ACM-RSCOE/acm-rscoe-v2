@@ -8,7 +8,7 @@ const ContentTeam = () => {
       <Navbar />
       <section className='main'>
         <div className='content-main'>
-          <h1 className=''>Content Team</h1>
+          <h1 className='team-name'>Content Team</h1>
           <p className=''>Content is your voice, and it can educate an audience, convey a message, present an idea, establish personality, promote a product, or yell at the unlucky stranger. And your audience will remember how you connect with them, whether it's for the better or worse. Our chapter's content initiatives are conceptualised, produced, optimised, and disseminated by a content team.</p>
         </div>
         <div className='img-div'>
